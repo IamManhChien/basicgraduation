@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chúc mừng tốt nghiệp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <img src="./assets/images/ftu.png" alt="FTU Logo" class="logo">
+      <img src="./assets/images/you.jpg" alt="Avatar" class="avatar">
+      <nav>
+        <a href="#">Trang chủ</a>
+        <a onclick="showMessage('Lời chúc')" href="#">Lời chúc</a>
+        <a onclick="showMessage('Kỷ niệm')" href="#">Kỷ niệm</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="center-content">
+      <img src="./assets/images/you.jpg" alt="Profile" class="profile-img">
+      <h1>Chúc mừng tốt nghiệp, Nguyễn Hoài Thu</h1>
+      <h2>Ngành: Ngôn ngữ Anh</h2>
+      <div class="button-group">
+        <button onclick="showMessage('Lời chúc')">Xem lời chúc</button>
+        <button onclick="showMessage('Kỷ niệm')">Xem kỉ niệm</button>
+      </div>
+      <p class="quote">“Hôm nay bạn đã khép lại một hành trình và mở ra một cánh cửa mới.”</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
