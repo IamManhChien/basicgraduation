@@ -24,12 +24,22 @@
       <h1>Chúc mừng tốt nghiệp, Nguyễn Hoài Thu</h1>
       <h2>Ngành: Ngôn ngữ Anh</h2>
       <div class="button-group">
-        <button onclick="showMessage('Lời chúc')">Xem lời chúc</button>
+  <button onclick="showWishesDialog()">Xem lời chúc</button>
         <button onclick="showMessage('Kỷ niệm')">Xem kỉ niệm</button>
       </div>
       <p class="quote">“Hôm nay bạn đã khép lại một hành trình và mở ra một cánh cửa mới.”</p>
     </section>
   </main>
   <script src="script.js"></script>
+</body>
+
+<!-- Dialog Lời chúc -->
+<div id="wishesDialog" class="dialog-overlay" style="display:none;">
+  <div class="dialog-box">
+    <h3>Lời chúc tốt nghiệp</h3>
+    <p style="color: black;">Chúc mừng bạn chính thức tốt nghiệp. Bây giờ sẽ là một hành trình mới. Chúc bạn sẽ luôn gặp may mắn trong công việc và cả cuộc sống nhá</p>
+    <button onclick="closeWishesDialog()">Quay lại</button>
+  </div>
+</div>
 </body>
 </html>

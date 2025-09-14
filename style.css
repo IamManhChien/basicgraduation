@@ -59,6 +59,52 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+/* Dialog overlay styles */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.dialog-box {
+  background: #fff;
+  color: #c82333;
+  padding: 2em 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  min-width: 280px;
+  max-width: 90vw;
+  text-align: center;
+}
+
+.dialog-box h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.dialog-box button {
+  background: #c82333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.dialog-box button:hover {
+  background: #a11a2b;
+}
+
 h1 {
   font-family: 'Pacifico', cursive, Arial, sans-serif;
   font-size: 2.8em;
